@@ -1,0 +1,182 @@
+header{
+    width:100%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-blend-mode: saturation darken;
+    box-shadow: .125rem -.4375rem .9375rem 1.25rem rgba(209, 141, 15, 0.568);
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    font-size: 1.5rem;
+    color: rgba(12, 70, 15, 0.849);
+    background-color:  goldenrod;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.top h1{
+    opacity: 1;
+     /*Move Left*/
+     text-decoration: wavy;
+     text-shadow:.1rem .1rem .2rem rgba(128, 0, 0, 0.63);
+     /*Transition Period*/
+     margin: 0;
+     padding: 0;
+}
+
+.top div{
+    display: inline-block;
+    align-items: center;
+}
+
+.Nav li{
+    position: relative;
+    background-color: rgb(12, 70, 15);
+    color: lightgray;
+    margin: 0;
+    left: -10rem;
+    list-style-type: none;
+    display: inline-block;
+    width: 5rem;
+    font-size: 1rem;
+    border:thick solid rgb(12, 70, 15);
+    border-radius: .5rem 11rem;
+}
+
+.Nav li:hover{
+    opacity: .9;
+}
+
+.searchNav li{
+    position: relative;
+    background-color:  rgb(12, 70, 15);
+    color: lightgray;
+    right: -4rem;
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    display: inline-block;
+    width: 5rem;
+    font-size: 1rem;
+    border:thick solid rgb(12, 70, 15);
+    border-radius: .5rem 11rem;
+}
+
+.searchNav li:hover{
+    opacity: .9;
+}
+
+#search{
+    position:relative;
+    right:-6rem;
+}
+
+body h1{
+    margin: 0;
+}
+
+body{
+    margin:0;
+    background-image: url(./images/alexander-andrews-yOIT88xWkbg-unsplash.jpg);
+}
+
+form{
+    padding: .5rem;
+}
+
+form input{
+    margin:.1rem;
+    margin-bottom: .4rem;
+}
+
+button{
+    background-color: goldenrod;
+    border-radius: 1rem;
+    border: .1rem solid rgba(128, 0, 0, 0.63);
+    margin-top: 1rem;
+}
+
+.mainContent div{
+    position: relative;
+    display: inline-table;
+    background-color: rgba(30, 129, 35, 0.842);
+    border: solid rgb(31, 72, 114);
+    border-radius: 1rem;
+    font-weight: 700;
+    margin: 1rem;
+    padding:1rem;
+    width: 20rem;
+    height: fit-content;
+    top: -18rem;
+    left: 18rem;
+}
+
+.mainContent h1{
+   text-align: center;
+}
+
+.mainContent img{
+    position: relative;
+    background-color: rgba(36, 92, 39, 0.521);
+    margin: 1rem;
+    width: 10rem;
+    height: 10rem;
+    left: 4rem;
+}
+
+.leftpanel{
+    opacity: .9;
+    position:relative;
+    background-color: rgba(9, 29, 143, 0.918);
+    border-radius: 1rem;
+    width: 15rem;
+    height: 20rem; 
+    margin-top: 1rem;
+    padding-top: .5rem;
+    top: 3.65rem;
+    margin-left: 1rem;
+}
+
+.leftpanel p{
+    font-size: 1.2rem;
+    position: relative;
+    color: white;
+    left: 3rem;
+    top: 1rem;
+}
+
+.leftpanel div{
+    width: 5rem;
+    height: 1.5rem;
+    border-radius: .5rem;
+    text-align: center;
+    position: relative;
+    left: 3.2rem;
+    top: 1rem;
+}
+
+.leftpanel form{
+    margin:1rem;
+}
+
+.leftpanel ul{
+    margin-top: 5rem;
+    color: white;
+}
+
+.footlist{
+    /* inline-block*/
+    position: relative;
+    margin-top: 10rem;
+    list-style-type: none;
+    left: 35rem;
+    background-color: lightslategrey;
+    width: 30rem;
+ }
+ 
+ .footlist li{
+     text-align: center;
+     align-content: flex-start;
+     display: inline-table;
+ }
